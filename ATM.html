@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ATM Login</title>
+</head>
+<body>
+<form action="ATMLogin" method="post">
+<h2>Welcome</h2>
+<table>
+<tr><td>Card Number:</td><td><input type="number" name="card" placeholder="Enter card number" /></td></tr>
+<tr><td>Pin:</td><td><input type="password" name="pin" placeholder="Enter pin" /></td></tr>
+<tr><td>Request:</td>
+<td>
+<select name="Request" style="width:150px">
+<option>Balance Enquiry</option>
+<option>Withdrawal</option>
+<option>Cheque Book Request</option>
+</select>
+</td></tr>
+<tr><td colspan="2"><input type="submit" value="Submit" formaction="ATMLogin"/></td></tr>
+</table>
+</form>
+</body>
+</html>
